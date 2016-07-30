@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50286A71D4C2CF20094FED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50286A61D4C2CF20094FED5 /* AppDelegate.swift */; };
+		B50286A91D4C2CF20094FED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50286A81D4C2CF20094FED5 /* ViewController.swift */; };
+		B50286AC1D4C2CF20094FED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50286AA1D4C2CF20094FED5 /* Main.storyboard */; };
+		B50286AE1D4C2CF20094FED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50286AD1D4C2CF20094FED5 /* Assets.xcassets */; };
+		B50286B11D4C2CF20094FED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50286AF1D4C2CF20094FED5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B50286A31D4C2CF20094FED5 /* AuthFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50286A61D4C2CF20094FED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50286A81D4C2CF20094FED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50286AB1D4C2CF20094FED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50286AD1D4C2CF20094FED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50286B01D4C2CF20094FED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50286B21D4C2CF20094FED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50286A01D4C2CF20094FED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B502869A1D4C2CF20094FED5 = {
+			isa = PBXGroup;
+			children = (
+				B50286A51D4C2CF20094FED5 /* AuthFirebase */,
+				B50286A41D4C2CF20094FED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50286A41D4C2CF20094FED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50286A31D4C2CF20094FED5 /* AuthFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50286A51D4C2CF20094FED5 /* AuthFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				B50286A61D4C2CF20094FED5 /* AppDelegate.swift */,
+				B50286A81D4C2CF20094FED5 /* ViewController.swift */,
+				B50286AA1D4C2CF20094FED5 /* Main.storyboard */,
+				B50286AD1D4C2CF20094FED5 /* Assets.xcassets */,
+				B50286AF1D4C2CF20094FED5 /* LaunchScreen.storyboard */,
+				B50286B21D4C2CF20094FED5 /* Info.plist */,
+			);
+			path = AuthFirebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50286A21D4C2CF20094FED5 /* AuthFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50286B51D4C2CF20094FED5 /* Build configuration list for PBXNativeTarget "AuthFirebase" */;
+			buildPhases = (
+				B502869F1D4C2CF20094FED5 /* Sources */,
+				B50286A01D4C2CF20094FED5 /* Frameworks */,
+				B50286A11D4C2CF20094FED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthFirebase;
+			productName = AuthFirebase;
+			productReference = B50286A31D4C2CF20094FED5 /* AuthFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B502869B1D4C2CF20094FED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brian Park";
+				TargetAttributes = {
+					B50286A21D4C2CF20094FED5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B502869E1D4C2CF20094FED5 /* Build configuration list for PBXProject "AuthFirebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B502869A1D4C2CF20094FED5;
+			productRefGroup = B50286A41D4C2CF20094FED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50286A21D4C2CF20094FED5 /* AuthFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50286A11D4C2CF20094FED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50286B11D4C2CF20094FED5 /* LaunchScreen.storyboard in Resources */,
+				B50286AE1D4C2CF20094FED5 /* Assets.xcassets in Resources */,
+				B50286AC1D4C2CF20094FED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B502869F1D4C2CF20094FED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50286A91D4C2CF20094FED5 /* ViewController.swift in Sources */,
+				B50286A71D4C2CF20094FED5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B50286AA1D4C2CF20094FED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50286AB1D4C2CF20094FED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50286AF1D4C2CF20094FED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50286B01D4C2CF20094FED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50286B31D4C2CF20094FED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50286B41D4C2CF20094FED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50286B61D4C2CF20094FED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AuthFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LucidVision.AuthFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B50286B71D4C2CF20094FED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AuthFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LucidVision.AuthFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B502869E1D4C2CF20094FED5 /* Build configuration list for PBXProject "AuthFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50286B31D4C2CF20094FED5 /* Debug */,
+				B50286B41D4C2CF20094FED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50286B51D4C2CF20094FED5 /* Build configuration list for PBXNativeTarget "AuthFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50286B61D4C2CF20094FED5 /* Debug */,
+				B50286B71D4C2CF20094FED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B502869B1D4C2CF20094FED5 /* Project object */;
+}
